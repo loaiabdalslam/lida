@@ -35,7 +35,7 @@ class UploadUrl:
 class Goal:
     """A visualization goal"""
     question: str
-    visualization: str
+    visualization: Dict
     rationale: str
     index: Optional[int] = 0
 
